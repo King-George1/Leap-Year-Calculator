@@ -1,0 +1,40 @@
+.center{
+    max-width: 27%;
+    margin: 100px auto;
+    border: 1px solid red;
+    text-align: center;
+    height: 300px;
+}
+
+label{
+    font-size: 1.4rem;
+}
+button{
+    margin-top: 6%;
+    display: inline-block;
+    min-width: 25%;
+    margin-bottom: 6%;
+    height: 5vh;
+    font-family: bold;
+    font-size: 1.2rem;
+    border-radius: 4%;
+    font-weight: 400;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background: red;
+    cursor: pointer;
+    border: 0px;
+}
+
+input{
+    max-width: 25%;
+    height: 2vw;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+#result{
+    font-size: 1.4rem;
+}
